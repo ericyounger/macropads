@@ -8,13 +8,20 @@
 * Hardware Supported: *The PCBs, controllers supported*
 * Hardware Availability: *Links to where you can find this hardware*
 
+
+Dependent on vial-qmk, then when that is set up, just add symlinks:
+```
+## If git repo is cloned to ~/keyboards
+ln -s ~/keyboards/macropaddy ~/vial-qmk/keyboards/macropaddy
+```
+
 Make example for this keyboard (after setting up your build environment):
 
-    make macropaddy:default
+    make macropaddy:vial
 
 Flashing example for this keyboard:
 
-    make macropaddy:default:flash
+    make macropaddy:vial:flash
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
