@@ -1,1 +1,3 @@
 VIA_ENABLE = yes
+
+KEYBOARD_LANG = no

@@ -3,6 +3,10 @@
 
 #include QMK_KEYBOARD_H
 
+#include "keymap_norwegian.h"
+#include "sendstring_norwegian.h"
+
+
 enum custom_keycodes {
     M0 = SAFE_RANGE,
     M1,
