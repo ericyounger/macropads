@@ -1,6 +1,7 @@
 # macropaddy
 
-![macropaddy](imgur.com image replace me!)
+![macropaddy](https://github.com/user-attachments/assets/adde2491-6244-4509-8485-099439a577aa)
+
 
 *A short description of the keyboard/project*
 
@@ -9,7 +10,7 @@
 * Hardware Availability: *Links to where you can find this hardware*
 
 
-Dependent on vial-qmk, then when that is set up, just add symlinks:
+Dependent on [vial-qmk](https://github.com/vial-kb/vial-qmk), then when that is set up, just add symlinks:
 ```
 ## If git repo is cloned to ~/keyboards
 ln -s ~/keyboards/macropaddy ~/vial-qmk/keyboards/macropaddy
