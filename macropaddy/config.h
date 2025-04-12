@@ -2,7 +2,7 @@
 
 
 // Pin configuration
-#define MATRIX_ROW_PINS { B1, B3, B2 }
+#define MATRIX_ROW_PINS { B2, B3, B1 }
 #define MATRIX_COL_PINS { D4, C6, D7 }
 #define DIODE_DIRECTION COL2ROW
 
