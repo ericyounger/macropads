@@ -6,6 +6,16 @@
 #include "keymap_norwegian.h"
 #include "sendstring_norwegian.h"
 
+#undef LAYOUT_ortho_3x3
+#define LAYOUT_ortho_3x3( \
+    k00, k01, k02, \
+    k10, k11, k12, \
+    k20, k21, k22  \
+) { \
+    { k02, k12, k22 }, \
+    { k01, k11, k21 }, \
+    { k00, k10, k20 }  \
+}
 
 enum custom_keycodes {
     M0 = SAFE_RANGE,
